@@ -34,11 +34,11 @@ const Header = () => {
             <span className="action_name">Wishlist</span>
           </div>
 
-          <a className="action_container" href="pages/bag.html">
+          <Link className="action_container" to="/bag">
             <IoBag />
             <span className="action_name">Bag</span>
             <span className="bag-item-count">0</span>
-          </a>
+          </Link>
         </div>
       </header>
     </>
